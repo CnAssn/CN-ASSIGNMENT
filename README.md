@@ -1,0 +1,12 @@
+# CN-ASSIGNMENT
+CN assignment -2 
+
+Group details-
+
+1) 1KS17CS029 - HARSHITHA V
+
+2) 1KS17CS041 - MEGHANA CV
+
+3) 1KS17CS047 - NIKITA KATARI
+
+Assignment - A03
