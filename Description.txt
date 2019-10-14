@@ -32,7 +32,7 @@ contribution: harshitha- sockect programming, readme file
 concepts learnt: GBN working, window sliding protocols
                  difference between tcp and udp sockets
 
-we request you to kindly give us more time to elobrataley study the concepts and
+we request you to kindly give us more time to completly study the concepts and
  later apply them to assignments
 
   
