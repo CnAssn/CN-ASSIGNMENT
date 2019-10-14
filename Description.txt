@@ -4,8 +4,11 @@ instructions to run the program:
 Format of command line args:
 
 ./sender <Window size> <Seqnum> <N> <receiver IP> <receiver port> 
-
+ example -  java MyClient 4 4 4 localhost 12345
+   
 ./receiver <Seq> <I> <receiver port>
+ example -  java MyServer 4 3 12345
+ 
 
 
 Working: MyClient
