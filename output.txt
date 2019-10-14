@@ -1,0 +1,21 @@
+javac MyServer.java
+java MyServer 4 3 12345
+
+javac MyClient.java
+java MyClient 4 4 4 localhost 12345
+
+Sender side:
+message number 1 58f78be6bf5aee77d6942b20596217d6
+message number 2 63fe9a8fd3f627a58106503d554f7e12
+message number 3 2a66e3405a1c7d5d7c7ec281a188d66c
+message number 4 68c16db1efd9950e3b967f5347e2d7e4
+
+
+
+receiver side:
+1
+message= message number 1 58f78be6bf5aee77d6942b20596217d6
+2
+message= message number 2 63fe9a8fd3f627a58106503d554f7e12
+3
+lost pack message number 3 2a66e3405a1c7d5d7c7ec281a188d66c

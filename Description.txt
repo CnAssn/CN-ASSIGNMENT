@@ -1,0 +1,35 @@
+instructions to run the program: 
+   - first MyServer is excecuted and then MyClient
+
+Format of command line args:
+
+./sender <Window size> <Seqnum> <N> <receiver IP> <receiver port> 
+
+./receiver <Seq> <I> <receiver port>
+
+
+Working: MyClient
+                - getMd5 function is used to calculate checksum
+                - sockect is established b/w client and server
+                - packect is sent adding checksum
+                - receiver sends ack if packect is received in order
+                    else last recevied pack inorder ack is sent
+                - sender resends if pack is received out of order
+
+          MyServer
+                 - Sockect connection is established and recevies pack from client
+                 - every ith packect is rejected 
+                 - if packect is received as expected in order then send right ack
+                       else ack of last received in order is sent
+
+contribution: harshitha- sockect programming, readme file
+              meghana- working/logic of udp protocol
+              nikitha - Myserver implementation, output file
+
+concepts learnt: GBN working, window sliding protocols
+                 difference between tcp and udp sockets
+
+we request you to kindly give us more time to elobrataley study the concepts and
+ later apply them to assignments
+
+  
